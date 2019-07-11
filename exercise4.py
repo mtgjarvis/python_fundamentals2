@@ -1,4 +1,4 @@
-word  = input('Plese enter a word ')
+check_word  = input('Plese enter a word ')
 
 def num_letters(word):
     if len(word) <  8:
@@ -6,4 +6,4 @@ def num_letters(word):
     if len(word) >=  8:
         return True
 
-print(num_letters(word))
+print(num_letters(check_word))
